@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.container{
+    padding: 20px;
+
+}
+.sec-one{
+    background-color: black;
+    color: white;padding: 20px;
+    
+}
+.sec-one_contact{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    border: solid 1px white;
+    text-decoration: none;
+}
+.sec-one_name{
+    font-size: 40px;
+}
+.sec-one_desig{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.sec-two, .sec-three , .sec-four , .sec-five{
+    margin-top: 20px;
+
+}
+.sec-two_title, .sec-three_title , .sec-four_title , .sec-five_title{
+    
+}
+.sec-two-desc, .sec-three-desc , .sec-four-desc , .sec-five-desc{
+    margin-top: 10px;
+}
+.sec-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.sec-five_title a{
+    color: skyblue;
+    
+}
+.sec-three li, .sec-four li{
+   list-style: none;
+}
+.sec-three{
+    background-color:gold;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.sec-four{
+    background-color: skyblue;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    
+    border-radius: 10px;
+    vertical-align: top;
+}
+    
+.contact-form{
+    margin-top: 20px;
+}
+.contact-form-input , .contact-form-textarea , .contact-form-submit{
+    margin-top: 10px;
+}
+.contact-form-input{
+    
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.contact-form-textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+  
+}
+.contact-form-submit{
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.sec-one_contactt{
+    background-color:red;
+    color: white;
+    display: inline-block;
+    border: solid 1px white;
+    text-decoration: none;
+}
